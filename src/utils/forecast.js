@@ -11,7 +11,8 @@ const forecast = (latitude, longtitude, callback) => {
             callback(undefined, 
                 body.daily.data[0].summary+' the temperatur is '+
                 body.currently.temperature+' Degrees, and the precipProbability is '+
-                body.currently.precipProbability +'%'
+                body.currently.precipProbability +'% wind speed is '+
+                body.currently.windSpeed +' m/s'
 
             )
         }
