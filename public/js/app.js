@@ -1,11 +1,3 @@
-// console.log('client side js');
-
-// fetch('http://puzzle.mead.io/puzzle').then((response) => {
-//         response.json().then((data) => {
-//             console.log(data)
-//         })
-// })
-
 const wheaterForm = document.querySelector('form')
 const search = document.querySelector('input')
 const p1 = document.querySelector('#message1')
